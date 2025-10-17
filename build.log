@@ -1,0 +1,138 @@
+    Updating crates.io index
+     Locking 91 packages to latest compatible versions
+      Adding windows v0.58.0 (available: v0.62.2)
+ Downloading crates ...
+  Downloaded httparse v1.10.1
+  Downloaded atomic-waker v1.1.2
+  Downloaded pin-utils v0.1.0
+  Downloaded http-body v1.0.1
+  Downloaded futures-core v0.3.31
+  Downloaded equivalent v1.0.2
+  Downloaded futures-sink v0.3.31
+  Downloaded itoa v1.0.15
+  Downloaded tower-service v0.3.3
+  Downloaded scopeguard v1.2.0
+  Downloaded percent-encoding v2.3.2
+  Downloaded want v0.3.1
+  Downloaded try-lock v0.2.5
+  Downloaded futures-task v0.3.31
+  Downloaded system-configuration-sys v0.6.0
+  Downloaded httpdate v1.0.3
+  Downloaded slab v0.4.11
+  Downloaded cfg-if v1.0.3
+  Downloaded signal-hook-registry v1.4.6
+  Downloaded system-configuration v0.6.1
+  Downloaded lock_api v0.4.14
+  Downloaded http-body-util v0.1.3
+  Downloaded tokio-macros v2.5.0
+  Downloaded parking_lot_core v0.9.12
+  Downloaded quote v1.0.41
+  Downloaded pin-project-lite v0.2.16
+  Downloaded ipnet v2.11.0
+  Downloaded smallvec v1.15.1
+  Downloaded ryu v1.0.20
+  Downloaded core-foundation-sys v0.8.7
+  Downloaded unicode-ident v1.0.19
+  Downloaded memchr v2.7.6
+  Downloaded socket2 v0.6.0
+  Downloaded serde_derive v1.0.228
+  Downloaded parking_lot v0.12.5
+  Downloaded proc-macro2 v1.0.101
+  Downloaded bitflags v2.9.4
+  Downloaded tracing-core v0.1.34
+  Downloaded serde_core v1.0.228
+  Downloaded serde v1.0.228
+  Downloaded base64 v0.22.1
+  Downloaded tracing v0.1.41
+  Downloaded indexmap v2.11.4
+  Downloaded mio v1.0.4
+  Downloaded tokio-util v0.7.16
+  Downloaded hyper-util v0.1.17
+  Downloaded serde_json v1.0.145
+  Downloaded h2 v0.4.12
+  Downloaded hyper v1.7.0
+  Downloaded hashbrown v0.16.0
+  Downloaded futures-util v0.3.31
+  Downloaded http v1.3.1
+  Downloaded bytes v1.10.1
+  Downloaded core-foundation v0.9.4
+  Downloaded syn v2.0.106
+  Downloaded futures-channel v0.3.31
+  Downloaded once_cell v1.21.3
+  Downloaded fnv v1.0.7
+  Downloaded libc v0.2.177
+  Downloaded tokio v1.47.1
+   Compiling libc v0.2.177
+   Compiling proc-macro2 v1.0.101
+   Compiling unicode-ident v1.0.19
+   Compiling quote v1.0.41
+   Compiling pin-project-lite v0.2.16
+   Compiling bytes v1.10.1
+   Compiling parking_lot_core v0.9.12
+   Compiling itoa v1.0.15
+   Compiling scopeguard v1.2.0
+   Compiling smallvec v1.15.1
+   Compiling futures-core v0.3.31
+   Compiling cfg-if v1.0.3
+   Compiling lock_api v0.4.14
+   Compiling fnv v1.0.7
+   Compiling once_cell v1.21.3
+   Compiling equivalent v1.0.2
+   Compiling core-foundation-sys v0.8.7
+   Compiling hashbrown v0.16.0
+   Compiling http v1.3.1
+   Compiling tracing-core v0.1.34
+   Compiling system-configuration-sys v0.6.0
+   Compiling httparse v1.10.1
+   Compiling serde_core v1.0.228
+   Compiling futures-sink v0.3.31
+   Compiling indexmap v2.11.4
+   Compiling http-body v1.0.1
+   Compiling tracing v0.1.41
+   Compiling slab v0.4.11
+   Compiling pin-utils v0.1.0
+   Compiling try-lock v0.2.5
+   Compiling atomic-waker v1.1.2
+   Compiling want v0.3.1
+   Compiling futures-channel v0.3.31
+   Compiling bitflags v2.9.4
+   Compiling syn v2.0.106
+   Compiling serde_json v1.0.145
+   Compiling httpdate v1.0.3
+   Compiling futures-task v0.3.31
+   Compiling serde v1.0.228
+   Compiling futures-util v0.3.31
+   Compiling signal-hook-registry v1.4.6
+   Compiling socket2 v0.6.0
+   Compiling parking_lot v0.12.5
+   Compiling mio v1.0.4
+   Compiling core-foundation v0.9.4
+   Compiling memchr v2.7.6
+   Compiling percent-encoding v2.3.2
+   Compiling ipnet v2.11.0
+   Compiling system-configuration v0.6.1
+   Compiling tower-service v0.3.3
+   Compiling base64 v0.22.1
+   Compiling ryu v1.0.20
+   Compiling http-body-util v0.1.3
+   Compiling tokio-macros v2.5.0
+   Compiling serde_derive v1.0.228
+   Compiling tokio v1.47.1
+   Compiling tokio-util v0.7.16
+   Compiling h2 v0.4.12
+   Compiling hyper v1.7.0
+   Compiling hyper-util v0.1.17
+   Compiling scanner_helper v1.0.0 (/Users/archilodishelidze/Desktop/dev/scanner/windowsRust)
+warning: unreachable statement
+   --> src/main.rs:206:5
+    |
+203 |         return Ok(());
+    |         ------------- any code following this expression is unreachable
+...
+206 |     let addr = "127.0.0.1:8765";
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` on by default
+
+warning: `scanner_helper` (bin "scanner_helper") generated 1 warning
+    Finished `release` profile [optimized] target(s) in 22.57s

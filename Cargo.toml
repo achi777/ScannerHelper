@@ -1,0 +1,45 @@
+[package]
+name = "scanner_helper"
+version = "1.0.0"
+edition = "2021"
+authors = ["Scanner Team"]
+
+[dependencies]
+tokio = { version = "1.40", features = ["full"] }
+hyper = { version = "1.4", features = ["full"] }
+hyper-util = { version = "0.1", features = ["full"] }
+http-body-util = "0.1"
+base64 = "0.22"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
+
+# Windows specific dependencies
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = [
+    "Win32_System_Com",
+    "Win32_System_Ole",
+    "Win32_Graphics_Imaging",
+    "Win32_Graphics_Imaging_D2D",
+    "Win32_Foundation",
+    "Win32_System_Variant",
+    "Win32_UI_Shell_PropertiesSystem",
+    "Win32_Storage_StructuredStorage",
+    "Win32_System_Com_StructuredStorage",
+    "Win32_System_Registry",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_System_Console",
+    "Win32_UI_Shell",
+    "Win32_Graphics_Gdi",
+    "implement",
+] }
+winreg = "0.52"
+tray-icon = "0.14"
+image = "0.24"
+winit = "0.29"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
